@@ -11,4 +11,5 @@ RUN conda config --add channels bioconda
 
 RUN conda install -y hisat2=2.1.0
 RUN conda install -y zstd
+RUN conda install -y pigz
 RUN conda install -y fastp=0.13.1
