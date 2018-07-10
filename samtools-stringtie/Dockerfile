@@ -12,3 +12,5 @@ RUN conda config --add channels bioconda
 RUN conda install -y samtools=1.8
 RUN conda install -y zstd
 RUN conda install -y stringtie=1.3.4
+
+RUN apt-get update && apt-get install time
