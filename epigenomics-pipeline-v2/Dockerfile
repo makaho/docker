@@ -23,6 +23,7 @@ RUN conda install -y bedtools=2.27.1
 RUN conda install -y homer=4.9.1 
 RUN conda install -y samtools=1.8 
 RUN conda install -y idr=2.0.3 
+RUN conda install -y ucsc-bedgraphtobigwig=366
 
 
 # install MACS2
